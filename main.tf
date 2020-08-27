@@ -7,5 +7,5 @@ module "security-group-direct-ssh" {
 }
 
 module "security-group-direct-https" {
-  source = "https://github.com/terraform-aws-modules/terraform-aws-security-group.git"
+  source = "https://github.com/terraform-aws-modules/terraform-aws-security-group"
 }

@@ -1,5 +1,5 @@
 module "security-group" {
-  source = "github.com/terraform-aws-modules/terraform-aws-security-group"
+  source = "git@github.com:terraform-aws-modules/terraform-aws-security-group.git"
 }
 
 module "security-group-fail" {
